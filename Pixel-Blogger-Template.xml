@@ -2,7 +2,25 @@
 <!DOCTYPE html>
 <html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async='async' src='https://www.googletagmanager.com/gtag/js?id=UA-164543734-1'/>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag(&#39;js&#39;, new Date());
+  gtag(&#39;set&#39;, {&#39;user_id&#39;: &#39;UA-164543734-1&#39;}); // Set the user ID using signed-in user_id.
+  ga(&#39;set&#39;, &#39;userId&#39;, &#39;UA-164543734-1&#39;); // Set the user ID using signed-in user_id.
+  gtag(&#39;config&#39;, &#39;UA-164543734-1&#39;);
+</script>
 
+    <meta content='dZL1GFU5UvC9AKOI4pM6exZM0nNLlPfSUY6Pk1zErxs' name='google-site-verification'/>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KKS5V8Z');</script>
+<!-- End Google Tag Manager -->
     <b:if cond='data:blog.pageType == &quot;index&quot;'>
     <title><data:blog.pageTitle/></title>
     <b:else/>
@@ -3293,5 +3311,10 @@ var $=jQuery;$(".custwid .pixel-widget").map(function(){function e(e,i){return e
 $(document).ready(function(){$("img").map(function(){var t=$(this),a=t.attr("src");t.attr("title",a.substring(a.lastIndexOf("/")+1,a.lastIndexOf("."))),t.attr("alt",a.substring(a.lastIndexOf("/")+1,a.lastIndexOf(".")))})}),$(".Label a, .pixel-max-limit").attr("href",function(t,a){return a.replace(a,a+"?&max-results="+perPage)});
   //]]>
 </script>  
+	
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe height='0' src='https://www.googletagmanager.com/ns.html?id=GTM-KKS5V8Z' style='display:none;visibility:hidden' width='0'/></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	
 </body>
 </html>
